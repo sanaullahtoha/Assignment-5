@@ -32,3 +32,16 @@ document.getElementById("parent").addEventListener("click", function(){
 });
 
 
+4.What is Event Delegation in JavaScript? Why is it useful?
+Ans:
+Event Delegation in JavaScript is a technique where i can attach a single event listener to a parent element instead of multiple child elements. When an event happens on a child, it bubbles up to the parent, and you handle it there using (event.target).
+
+Why useful?
+
+Improves performance (fewer listeners).
+Works for dynamically added elements.
+Keeps code clean and simple.
+
+5. What is the difference between preventDefault() and stopPropagation() methods?
+  Ans:
+   preventDefault() is Stops the default browser behavior and stopPropagation() is Stops the event from bubbling up the DOM tree.
